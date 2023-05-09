@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const URL = "http://localhost:8000";
+const URL = "https://node-express-backend-qu35oqtp6a-uc.a.run.app";
 
 export const addUser= async (data) => {
     try{

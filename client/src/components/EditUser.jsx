@@ -30,7 +30,7 @@ const EditUser = () => {
     }
     useEffect(() => {
         loadUserDetails()
-    }, [])
+    },[] )
 
     const loadUserDetails = async () => {
         const res = await getUser(id)

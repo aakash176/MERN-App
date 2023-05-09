@@ -4,6 +4,8 @@ const router = express.Router()
 
 router.post('/add', async(req,res) => {
     const user = req.body
+    console.log('user',user);
+    
     const newUser = new User(user)
 
     try{
